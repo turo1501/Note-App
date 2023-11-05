@@ -20,7 +20,7 @@ export default function Login() {
 
   }
 
-  if(user?.id){
+  if(user?.uid){
     navigate('/')
     return 
   }
